@@ -1,0 +1,86 @@
+/* Container for the registration form */
+.register-container {
+    width: 100%;
+    height: 100vh; /* Full height for the view */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfb9b9; /* Light background color */
+    padding: 20px;
+    background-image: url('./login.jpg'); /* Adjust the path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    
+}
+
+  
+  /* Form styling */
+  .register-form {
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for a modern look */
+    width: 100%;
+    max-width: 400px; /* Limit the width */
+  }
+  
+  /* Heading for the form */
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* General input group styling */
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Input fields styling */
+  .register-form input[type="text"],
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #2b2323; /* Subtle border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure proper box-sizing */
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input field focus effect */
+  .register-form input:focus {
+    border-color: #6200ea; /* Highlighted border on focus */
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #dadfe2; /* Primary button color */
+    color: rgb(212, 42, 42);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #bdbcc0; /* Darker on hover */
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
