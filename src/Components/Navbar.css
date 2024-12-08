@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #538830;
+    top:0;
+     
+}
+
+.container a {
+    text-decoration: none;
+    color: rgba(44, 34, 40, 0.74);
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    
+}
+
+.container a:hover {
+    background-color: #af6969;
+}
+
+
+  

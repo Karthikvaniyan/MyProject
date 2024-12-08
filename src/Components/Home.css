@@ -1,0 +1,57 @@
+/* Home.css */
+
+body {
+  margin: 0; /* Remove default body margin */
+  font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+  background-color: #f4f6f9; /* Light background for the page */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically */
+  height: calc(100vh - 60px); /* Adjust for navbar height */
+  text-align: center; /* Center text */
+  padding: 20px; /* Add some padding */
+}
+
+.logo {
+  width: 120px; /* Size of the logo */
+  margin-bottom: 20px; /* Space below the logo */
+}
+
+.text-container {
+  background-color: white; /* White background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 40px; /* Padding inside the container */
+  max-width: 600px; /* Max width for the container */
+  width: 100%; /* Full width on smaller screens */
+}
+
+h1 {
+  font-size: 2.5rem; /* Large font size for the main heading */
+  color: #5e72e4; /* Primary color */
+  margin: 0; /* Remove default margin */
+}
+
+.text-container p {
+  font-size: 1.5rem; /* Font size for text */
+  color: #333; /* Dark color for text */
+  margin: 10px 0; /* Space above and below paragraphs */
+}
+
+@media (max-width: 768px) {
+  .text-container {
+      padding: 20px; /* Adjust padding on smaller screens */
+  }
+
+  h1 {
+      font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .text-container p {
+      font-size: 1.2rem; /* Smaller text for mobile */
+  }
+}

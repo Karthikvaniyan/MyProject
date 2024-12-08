@@ -1,0 +1,111 @@
+/* Admin.css */
+
+body {
+  margin: 0; /* Remove default body margin */
+  font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+  background-color: #f4f6f9; /* Light background for the page */
+}
+
+.admin-container {
+  display: flex; /* Flex layout for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Padding around the container */
+}
+
+.admin-box {
+  max-width: 400px; /* Limit the width for better readability */
+  width: 100%; /* Full width for smaller screens */
+  padding: 20px; /* Padding inside the box */
+  background-color: #fff; /* White background for contrast */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.admin-title {
+  font-size: 2rem; /* Large font size for the title */
+  color: #5e72e4; /* Primary color for the title */
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.input-group {
+  margin-bottom: 15px; /* Space between input groups */
+}
+
+.input-label-center {
+  display: block; /* Block display for label */
+  font-size: 1rem; /* Font size for label */
+  color: #333; /* Dark text for labels */
+  margin-bottom: 5px; /* Space below labels */
+  text-align: center; /* Center labels */
+}
+
+.admin-input {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside the input */
+  border: 1px solid #ddd; /* Light border for input */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size for input */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.admin-input:focus {
+  border-color: #5e72e4; /* Change border color on focus */
+  outline: none; /* Remove outline */
+}
+
+.admin-login-button {
+  width: 100%; /* Full width for the button */
+  padding: 10px; /* Padding inside the button */
+  background-color: #5e72e4; /* Primary color for the button */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.admin-login-button:hover {
+  background-color: #4a5bb2; /* Darker shade on hover */
+}
+
+.admin-footer {
+  text-align: center; /* Center footer text */
+  margin-top: 20px; /* Space above footer */
+}
+
+.back-link {
+  color: #5e72e4; /* Primary color for link */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth transition for color */
+}
+
+.back-link:hover {
+  color: #4a5bb2; /* Darker shade on hover */
+}
+
+@media (max-width: 600px) {
+  .admin-box {
+      margin: 20px; /* Add margin on smaller screens */
+      padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  .admin-title {
+      font-size: 1.8rem; /* Smaller font size for title */
+  }
+
+  .input-label-center {
+      font-size: 0.9rem; /* Smaller font size for labels */
+  }
+
+  .admin-input {
+      font-size: 0.9rem; /* Smaller font size for input fields */
+  }
+
+  .admin-login-button {
+      font-size: 0.9rem; /* Smaller font size for button */
+  }
+}

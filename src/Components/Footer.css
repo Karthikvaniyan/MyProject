@@ -1,0 +1,29 @@
+.footer {
+    background-color: white;
+    padding: 10px 0;
+    text-align: right;
+    position: relative;
+    bottom: 0;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%; /* Adjust this value to move the icons slightly left from the right */
+    gap: 20px; /* Spacing between icons */
+  }
+  
+  .icon {
+    width: 70px;  /* Adjust size as needed */
+    height: 70px; /* Ensure consistent height and width */
+    ;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
